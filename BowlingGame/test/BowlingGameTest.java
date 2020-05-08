@@ -23,8 +23,7 @@ public class BowlingGameTest {
 		assertEquals(20, g.score());
 	}
 	
-	@Ignore(¡°until we get design right¡±)
-	@Test 
+	@Ignore(¡°until we walk frame by frame¡±)
 	public void testOneSpare() {
 		g.roll(5);
 		g.roll(5); // spare

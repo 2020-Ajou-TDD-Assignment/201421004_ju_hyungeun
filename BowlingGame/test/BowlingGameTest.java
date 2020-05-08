@@ -51,7 +51,7 @@ public class BowlingGameTest {
 	private void rollStrike() {
 		g.roll(10);
 	}
-	
+	 
 	private void rollSpare() {
 		g.roll(5);
 		g.roll(5);
